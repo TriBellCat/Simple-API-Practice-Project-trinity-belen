@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <H1>Cat API</H1>
+
+    <label for="limit">Image Limit: </label>
+    <input type="text" id="limit" required>
+    <br>
+    <label for="breed_ids">Breed Ids: </label>
+    <input type="text" id="breed_ids" required>
+    <br>
+    <label for="apiKey">API Key</label>
+    <input type="password" id="apiKey" required>
+    <br>
+
+    <button id="generate-cat">Generate Cat</button>
+    <div id="cat-images"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
